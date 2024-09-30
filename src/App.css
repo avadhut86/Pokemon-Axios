@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.title{
+  background-color: rgb(240, 22, 51);
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title h1{
+  margin-top: 39px;
+  color: white;
+}
+
+.title input {
+  width: 250px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  font-size: 17px;
+  padding: 5px;
+}
+
+.title button{
+  width: 200px;
+  height: 40px;
+  margin: 20px;
+  background-color: rgb(120, 3, 24);
+  border-radius: 15px;
+  border: none;
+  font-size: 17px;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ .card {
+  width: 300px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #ff97aa;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  color: rgb(240, 22, 51);
+}
+
+.card img {
+  width: 200px;
+  height: 150px;
+}
+
+.card h4 {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  color: rgb(120, 3, 24);
+}
+
+.card progress {
+  width: 100%;
+  height: 25px;
+  appearance: none;
+}
+
+.card progress::-webkit-progress-bar {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.card progress::-webkit-progress-value {
+  background-color: rgb(240, 22, 51);
+  border-radius: 10px;
+}
